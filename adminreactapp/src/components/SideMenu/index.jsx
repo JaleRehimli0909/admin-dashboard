@@ -7,12 +7,17 @@ import {
   ShoppingCartOutlined,
   UserOutlined,
 } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
 
 const SideMenu = () => {
+  const navigate = useNavigate();
   return (
     <div className="SideMenu">
       <Menu
-        onClick={(item) => {}}
+        onClick={(item) => {
+          // item.key
+          navigate(item.key);
+        }}
         items={[
           {
             label: "Dashboard",
