@@ -5,7 +5,7 @@ import Typography from 'antd/es/typography/Typography';
 const Customers = () => {
   return (
     <div>
-      <Typography.Text>Customers</Typography.Text>
+      <Typography.Title level={4}>Customers</Typography.Title>
     </div>
   )
 }

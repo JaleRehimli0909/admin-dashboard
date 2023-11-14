@@ -5,7 +5,7 @@ import { Typography } from "antd";
 const Inventory = () => {
   return (
     <div>
-      <Typography.Text>Inventory</Typography.Text>
+      <Typography.Title level={4}>Inventory</Typography.Title>
     </div>
   );
 };
