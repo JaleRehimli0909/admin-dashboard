@@ -13,6 +13,18 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 .AppFooter {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.SlideMenuAndPageMenu{
+ display: flex;
+ flex: 1;
+ justify-content: flex-start;
+ align-items: flex-start;
+
 }
 .SideMenu {
 }
